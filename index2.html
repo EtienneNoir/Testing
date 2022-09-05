@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="png" href="Images/favicon.png">
+    <title>Bit's Hardwares</title>
+</head>
+<body id="body" onload="NavigatorOb()">
+    <section id="top">
+        <table id="animation_Heading">
+            <tr> 
+            <td><img src="Images/favicon.png" alt="Image of CPU" id="animation"></td>
+            <td><h2 id="h1"> <strong> Bit's Hardwares </strong> </h2> </td>
+            </tr>
+        </table>
+            <nav id="nav1"> 
+                <ul id="ulNav" >
+                    <li class="link2" id="about_id"><a id="a"  href="javascript:void(0)"  onMouseOver="this.style.color='#818181'" onMouseOut="this.style.color='whitesmoke'" style="margin-right:110px;"> Home </a></li>
+                    <div class="dropdown2" >
+                        <li class="link2" ><a id="a" href="javascript:void(0)" onMouseOver="this.style.color='#818181'" onMouseOut="this.style.color='whitesmoke'" style="margin-right:120px;">Profile</a></li>
+                        <div class="dropdown-content2" id="table2">
+                                <div id="Log" style="padding-bottom:10px;">
+                                    <button class="glowEffect" > <a href="Sign_in.php" style="color:whitesmoke ;text-decoration: none;">Account Settings</a></button>
+                                </div>
+                        </div>
+                    </div>
+                    <li class="link2" id="c"><a id="a" href="About.html"  onMouseOver="this.style.color='#818181'" onMouseOut="this.style.color='whitesmoke'" style="margin-right:120px;">About</a></li>
+                    <li class="link2" id="sign_id"><a id="a" href="sign_in.php" onMouseOver="this.style.color='#818181'" onMouseOut="this.style.color='whitesmoke'" style="margin-right:120px;">Your Cart</a></li>
+                    <div class="dropdown">
+                       <li><a href="javascript:void(0)" onMouseOver="this.style.color='#818181'" onMouseOut="this.style.color='whitesmoke'"> Search </a></li>
+                        <div class="dropdown-content" id="table1">
+                            <form action="" id="Form2" name="Search1" onsubmit="return Validation2()">
+                                <table>
+                                    <tr>
+                                        <td> <input type="text" id="in" placeholder="Search.." name="search" style="height: 45px; width: 210px; border-radius: 15px; text-align: center;"> </td>
+                                        <td> <button type="submit" id="Se" class="glowEffect">&#128269;</button> </td>
+                                    </tr> 
+                                </table> 
+                                </form>
+                        </div>
+                    </div>
+                </ul>
+            </nav>
+    </section>
+        
+
+        <nav id="nav2" > 
+            <div class="dropdown3" >
+                <li class="link2" ><a id="a" href="javascript:void(0)" onMouseOver="this.style.color='#818181'" onMouseOut="this.style.color='whitesmoke'" style="margin-right:120px; color: whitesmoke">&#9776;</a></li>
+                <div class="dropdown-content3" id="table2" style="background-color: black;">
+                        <div class="Log">
+                            <button class="glowEffect" > <a href="javascript:void(0)" style="color:whitesmoke ;text-decoration: none;"> Home</a> </button>
+                        </div>
+
+                        <div class="Log">
+                            <button class="glowEffect" > <a href="Sign_in.php" style="color:whitesmoke ;text-decoration: none;">Account Settings</a></button>
+                        </div> 
+                        
+                        <div class="Log">
+                            <button class="glowEffect" ><a href="About.html" style="color:whitesmoke ;text-decoration: none;"> About</a></button>
+                        </div>
+
+                        <div class="Log">
+                            <button class="glowEffect" > <a href=" " style="color:whitesmoke ;text-decoration: none;"> Your Cart</a></button>
+                        </div>
+
+                        <div class="Log">
+                            <div class="dropdown">
+                                <button class="glowEffect" ><a href="javascript:void(0)" onMouseOver="this.style.color='#818181'" onMouseOut="this.style.color='whitesmoke'" style="color:whitesmoke ;text-decoration: none;"> Search </a></button>
+                                <div class="dropdown-content" id="table1">
+                                    <form action="" id="Form2" name="Search1" onsubmit="return Validation2()">
+                                        <table>
+                                            <tr>
+                                                <td> <input type="text" id="in" placeholder="Search.." name="search" style="height: 45px; width: 210px; border-radius: 15px; text-align: center;"> </td>
+                                                <td> <button type="submit" id="Se" class="glowEffect">&#128269;</button> </td>
+                                            </tr> 
+                                        </table> 
+                                        </form>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="Image_content" id="main">
+            <table class="TableA" >
+                <tr> <!-- First roww-->
+                    <td> <!--First Link Image-->
+                        <a  href="Laptops.html" title="Search For Laptops" class="tool"> <img id="ma" alt="Laptop image" src="Images/Lap.jpg" width="450" height="380" > </a>
+                    </td>
+                    <td>
+                        <a  href="#" title="Search For CPUs "> <img id="ma" alt="CPU image" src="Images/CPU.jpg" width="450" height="380"> </a>
+                    </td>
+                    <td>
+                        <a  href="#" title="Search For Computer Towers"> <img id="ma" alt="Towers image" src="Images/Towers.jpg" width="450" height="380"> </a>
+                    </td>
+
+                    <td>
+                        <a  href="#" title="Search For Speakers"> <img id="ma" alt="Speakers image" src="Images/Speakers.jpg" width="450" height="380"> </a>
+                    </td>
+                </tr>
+                
+                <tr><!-- Second row-->
+                    <td> <!--First Link Image-->
+                        <a  href="#" title="Search For Peripherals" > <img id="ma" alt="peripherals image" src="Images/peripherals.jpg" width="450" height="380"> </a>
+                    </td>
+
+                    <td>
+                        <a  href="#" title="Search For Monitors"> <img id="ma" alt="Monitors image" src="Images/Monitors.jpg" width="450" height="380"> </a>
+                    </td>
+                   
+                    <td>
+                        <a  href="#" title="Search for GPU" > <img id="ma" alt="GPU image" src="Images/GPU.jpg" width="450" height="380"> </a>
+                    </td>
+
+                    <td>
+                        <a  href="#" title="Search for Rams"> <img id="ma" alt=" ram image" src="Images/ram.jpg" width="450" height="380"> </a>
+                    </td>
+                </tr>
+            </table>
+        </div>    
+        <footer >
+            <h4 style="font-family:Serif" > &copy;  Copyright <strong> C Hardwares</strong> </h4>
+              <p > <h5>All Rights Reserved </h5></p>
+              <p > <h5>O. Ntsumane & E. Banza </h5></p>
+              <p > for more information click the following link: <a href="information.html" onMouseOver="this.style.color='#818181'" onMouseOut="this.style.color='#fc8129'" style="color: #fc8129;font-family: Monospace">click</a></p>
+          </footer>
+        
+          <script src="ScriptsJava.js"> </script> 
+</body>
+</html>
